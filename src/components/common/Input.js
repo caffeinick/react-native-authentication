@@ -24,7 +24,8 @@ Input.propTypes = {
   label: PropTypes.string,
   placeholder: PropTypes.string,
   value: PropTypes.string,
-  onChangeText: PropTypes.func
+  onChangeText: PropTypes.func,
+  secureTextEntry: PropTypes.bool
 };
 
 const styles = {
